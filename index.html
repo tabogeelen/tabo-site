@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabo Geelen | Bio-Inspired Agriculture Consultant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────── -->
+  <nav>
+    <a href="#hero" class="nav-logo">
+      <span class="logo-placeholder">
+        <img src="assets/logo.gif" alt="Tabo" class="logo-gif">
+        Tabo
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────────────────── -->
+  <section id="hero"><!-- built by render.js --></section>
+
+  <!-- ── ABOUT ────────────────────────────────────────────── -->
+  <section id="about"><!-- built by render.js --></section>
+
+  <!-- ── EXPERTISE ────────────────────────────────────────── -->
+  <section id="expertise">
+    <div class="expertise-header">
+      <div>
+        <p class="section-label">What I do</p>
+        <h2 class="section-heading">Expertise & <em>Services</em></h2>
+      </div>
+      <p class="expertise-intro">
+        Most projects touch on more than one of these areas. That's usually where the interesting work happens.
+      </p>
+    </div>
+    <div class="expertise-grid"><!-- built by render.js --></div>
+  </section>
+
+  <!-- ── PROJECTS ─────────────────────────────────────────── -->
+  <section id="projects">
+    <div class="projects-header">
+      <div>
+        <p class="section-label">Portfolio</p>
+        <h2 class="section-heading">Selected <em>Projects</em></h2>
+      </div>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Tanzania">Tanzania</button>
+        <button class="filter-btn" data-filter="Ecuador">Ecuador</button>
+        <button class="filter-btn" data-filter="Mozambique">Mozambique</button>
+        <button class="filter-btn" data-filter="Suriname">Suriname</button>
+        <button class="filter-btn" data-filter="Netherlands">Netherlands</button>
+      </div>
+    </div>
+    <div class="projects-grid"><!-- built by render.js --></div>
+  </section>
+
+  <!-- ── MODALS (injected here by render.js) ──────────────── -->
+  <div id="modals-container"></div>
+
+  <!-- ── PARTNERS ─────────────────────────────────────────── -->
+  <section id="partners">
+    <p class="partners-label">Organisations I've worked with</p>
+    <div class="partners-row"><!-- built by render.js --></div>
+  </section>
+
+  <!-- ── CONTACT ──────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="contact-left">
+      <p class="section-label">Let's work together</p>
+      <h2 class="section-heading">Have a project <em>in mind?</em></h2>
+      <p>
+        If you're working on something where regenerative agriculture needs to actually land in smallholder contexts, not just look good in a proposal, I'd genuinely enjoy a conversation about whether there's a fit. Whether that's consultancy support on a programme, field implementation, a financial model, or just an initial chat about what you're trying to do.
+      </p>
+      <div class="contact-details">
+        <div class="contact-detail">
+          <span class="contact-detail-label">Email</span>
+          <span class="contact-detail-value"><a id="contact-email" href="#">—</a></span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-label">LinkedIn</span>
+          <span class="contact-detail-value"><a id="contact-linkedin" href="#" target="_blank">—</a></span>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-label">Based in</span>
+          <span class="contact-detail-value" id="contact-location">—</span>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-group">
+        <label class="form-label">Name</label>
+        <input type="text" name="name" class="form-input" placeholder="Your name" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-input" placeholder="your@email.com" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Organisation</label>
+        <input type="text" name="organisation" class="form-input" placeholder="Organisation (optional)" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea name="message" class="form-textarea" placeholder="Tell me about your project…" required></textarea>
+      </div>
+      <input type="hidden" name="_subject" value="New message from your portfolio site" />
+      <input type="hidden" name="_next" value="" />
+      <button type="submit" class="form-submit">Send message</button>
+    </form>
+  </section>
+
+  <!-- ── FOOTER ───────────────────────────────────────────── -->
+  <footer>
+    <span id="footer-copy"></span>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <!-- ── DATA + RENDERER ──────────────────────────────────── -->
+  <script src="js/site-data.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/render.js"></script>
+
+</body>
+</html>
