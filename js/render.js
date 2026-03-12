@@ -56,6 +56,7 @@ function buildHero() {
         ${esc(word3)}
       </h1>
       <p class="hero-sub">${esc(h.sub)}</p>
+      <p class="hero-affiliation">Working under the guidance of <strong>RockinSoils</strong></p>
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">View Projects</a>
         <a href="#about" class="btn-secondary">About me</a>
@@ -78,6 +79,15 @@ function buildAbout() {
 
   const paragraphs = a.paragraphs.map(p => `<p>${md(p)}</p>`).join('');
 
+  const affiliationHtml = a.affiliation ? `
+    <div class="about-affiliation">
+      ${a.affiliation.logo ? `<img class="about-affiliation-logo" src="${esc(a.affiliation.logo)}" alt="${esc(a.affiliation.name)}">` : ''}
+      <div class="about-affiliation-text">
+        <span class="about-affiliation-label">${esc(a.affiliation.label)}</span>
+        <span class="about-affiliation-detail">${md(a.affiliation.detail)}</span>
+      </div>
+    </div>` : '';
+
   document.getElementById('about').innerHTML = `
     <div class="about-left">
       <div class="about-photo">${portrait}</div>
@@ -88,6 +98,7 @@ function buildAbout() {
       <p class="section-label">About</p>
       <p class="lead">${md(a.lead)}</p>
       ${paragraphs}
+      ${affiliationHtml}
       <div class="credentials">
         <div class="credential">
           <span class="credential-label">Education</span>

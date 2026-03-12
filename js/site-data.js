@@ -39,9 +39,14 @@ const SITE = {
       `What shapes how I work is a combination of scientific background and a genuinely people-oriented approach. I easily connect with farmers and teams from different cultural contexts, and I prefer co-designing solutions alongside them rather than working top-down. My background in qualitative sociological research has taught me to listen carefully, understand local realities, and translate those insights into approaches that actually hold up in practice because they come from the people who use them, supported where needed by tools like GIS mapping and data analysis.`,
 
       `At the same time, I like working hands-on and creatively. My background in biomimicry and systems thinking helps me look at farms as ecosystems and find nature-inspired solutions to practical problems. Whether that's setting up pilots together with local farmers, developing biological inputs they can produce themselves, making visual training materials, or adapting when field reality asks for it, I feel most at home in dynamic environments where you need to think scientifically, improvise when necessary, and keep things practical and human.`,
-
-      `Since my recent work in Tanzania, I've been working under the guidance of RockinSoils, where senior agro-consultant Ruben Borge provides technical knowledge and advice. That means I bring flexibility and fresh field energy, while still having direct access to decades of regenerative agriculture expertise. In practice, organisations often find that I offer the best of both worlds.`,
     ],
+
+    affiliation: {
+      name: "RockinSoils",
+      logo: "assets/company-logos/cropped-rockinsoils-logo-web-green2.png",
+      label: "Working under the guidance of RockinSoils",
+      detail: `Senior agro-consultant **Ruben Borge** provides technical knowledge and advice. I bring flexibility and fresh field energy, with direct access to decades of regenerative agriculture expertise. In practice, organisations often find that I offer the best of both worlds.`,
+    },
   },
 
   // ── EXPERTISE CARDS ───────────────────────────────────────

@@ -165,7 +165,19 @@
       color: var(--warm-grey);
       max-width: 36ch;
       line-height: 1.75;
+      margin-bottom: 1rem;
+    }
+
+    .hero-affiliation {
+      font-size: 0.8rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: var(--green);
       margin-bottom: 3rem;
+    }
+
+    .hero-affiliation strong {
+      font-weight: 600;
     }
 
     .hero-actions {
@@ -326,6 +338,46 @@
       font-weight: 300;
       line-height: 1.6;
       color: var(--charcoal);
+    }
+
+    .about-affiliation {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      padding: 1.2rem 1.5rem;
+      background: var(--green-pale);
+      border-left: 3px solid var(--green);
+      border-radius: 4px;
+    }
+
+    .about-affiliation-logo {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .about-affiliation-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .about-affiliation-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+
+    .about-affiliation-detail {
+      font-size: 0.92rem;
+      font-weight: 300;
+      color: #3a3a36;
+      line-height: 1.7;
     }
 
     .credentials {
