@@ -180,7 +180,7 @@ Alongside the production systems, I developed data tracking tools to record inpu
     },
 
     page: {
-      title: "Agroecological Transitions with Kichwa Farmers: Chimborazo, Ecuador 🇪🇨",
+      title: "Agroecological Transitions with Kichwa Farmers: Chimborazo, Ecuador",
       heroPhoto: "assets/projects/ecuador/Interview_1.jfif",
       lead: `My MSc internship took me into the Andes with Fundación Maquita, a local Ecuadorian NGO, working alongside Indigenous Kichwa smallholder farmers who were in the process of reclaiming ancestral farming practices after decades of chemical dependency had left soils depleted and communities in poor health.`,
 
@@ -193,15 +193,17 @@ One farmer said it simply: *"Before, we depended on chemicals, and it was econom
         },
         {
           heading: "What I worked on",
-          text: `My role combined field implementation with qualitative research. On the practical side, I co-designed workshops with farmers on regenerative practices: composting, locally produced biological inputs, organic livestock treatments, greenhouse setup, water filter installation, and capacity-building in dairy processing (cheese and yogurt production). These weren't passive demonstrations delivered top-down; I was in the field with farmers, learning from their knowledge while sharing what I could offer.
+          text: `My role was hands-on and broad. I co-designed and delivered workshops with farmers on composting, locally produced biological inputs (such as beneficial microorganism cultures and fermented plant extracts), organic livestock treatments, greenhouse construction, water filter installation, and capacity-building in dairy processing including cheese and yogurt production. These weren't passive demonstrations: I was in the field daily with farmers, learning from their knowledge of local soils, microclimates, and traditional crop varieties while sharing what I could offer from my own background.
 
-On the research side, I conducted qualitative interviews and analysis to understand farmer decision-making, the social and economic barriers to agroecological transition, and what actually motivates adoption. The goal was to produce insights that the organisation could act on, not just an academic output.`,
+A key part of my work was supporting farmers in setting up their own biological input production, empowering them to replace expensive purchased chemicals with inputs they could make themselves from locally available materials. I also helped design and install water filtration systems in communities that lacked access to clean drinking water, and facilitated sessions on greenhouse management for communities at higher altitudes where frost and hail threatened open-field crops.`,
+        },
+        {
+          heading: "The research",
+          text: `Alongside the field implementation, I conducted qualitative research on farmer decision-making and the barriers to agroecological transition. Through semi-structured interviews and participatory observation across multiple communities, I investigated what motivates farmers to adopt regenerative practices, what holds them back, and how social dynamics within communities influence the spread of new techniques. I analysed patterns in adoption behaviour, the role of trust in knowledge transfer, and the economic trade-offs farmers weigh when deciding whether to transition away from chemical inputs. The goal was to produce actionable insights for Fundación Maquita, not just an academic output but practical recommendations they could use to improve how they support farming communities in the region.`,
         },
         {
           heading: "What stayed with me",
-          text: `Working at a local Ecuadorian NGO in Spanish, adjusting to a different cultural context, and earning the trust of farming communities I knew nothing about. It was challenging at first, and then it became one of the most formative experiences of my career. The farmers I worked with were rediscovering indigenous potato varieties, growing their own beneficial microorganisms, and rebuilding knowledge systems that chemical agriculture had almost erased. Watching that happen is part of why I do this work.
-
-The lessons from Ecuador, about adoption, trust, the gap between what experts recommend and what farmers actually do, continue to shape how I approach every project I take on. The best solutions aren't handed down; they're built together.`,
+          text: `Working at a local Ecuadorian NGO in Spanish, adjusting to a different cultural context, and earning the trust of farming communities I knew nothing about. It was challenging at first, and then it became one of the most formative experiences of my career. The farmers I worked with were rediscovering indigenous potato varieties, growing their own beneficial microorganisms, and rebuilding knowledge systems that chemical agriculture had almost erased. Watching that happen is part of why I do this work.`,
         },
       ],
 
@@ -244,7 +246,7 @@ The lessons from Ecuador, about adoption, trust, the gap between what experts re
     },
 
     page: {
-      title: "GAIN Student Challenge: BSF for Farmers in Mozambique 🇲🇿",
+      title: "GAIN Student Challenge: BSF for Farmers in Mozambique",
       heroPhoto: "assets/projects/GAIN/Presenting.jfif",
       lead: `Our team won the 2024 GAIN Student Challenge with a nature-inspired solution tackling protein access and food security for rural communities in Mozambique. We designed a model that empowers female farmers in the Erati and Monapo regions to cultivate Black Soldier Fly larvae in their own compost, creating a home-grown, affordable source of nutrient-rich chicken feed.`,
 
@@ -302,28 +304,28 @@ Working alongside an amazing team of students from different study backgrounds a
     },
 
     page: {
-      title: "Wildlife Tolerance & Indigenous Farming Systems: Suriname 🇸🇷",
+      title: "Wildlife Tolerance & Indigenous Farming Systems: Suriname",
       heroPhoto: "assets/projects/suriname/lapotop_interview.jfif",
-      lead: `My MSc thesis took me to remote regions of Suriname to live and work alongside the Wayana and Trio Indigenous peoples, studying how smallholder farmers in these communities understand, tolerate, and coexist with crop-raiding wildlife. I'm a co-author on the publication that followed.`,
+      lead: `My MSc thesis took me to remote regions of Suriname to live and work alongside the Wayana and Trio Indigenous peoples, investigating human-wildlife conflict and what drives tolerance toward crop-raiding mammals among subsistence farming communities in the Surinamese Amazon. I'm a co-author on the publication that followed.`,
 
       sections: [
         {
-          heading: "The research",
-          text: `The project applied the Wildlife Tolerance Model to understand what drives tolerance, or the lack of it, toward crop-raiding animals in Maroon and Indigenous communities in Suriname's interior. This meant exploring not just the material impacts of wildlife on harvests, but the deeper social, cultural, and ecological values that shape how people relate to the animals around them.
-
-In practice, that required qualitative interviews, participatory observation, and spending enough time in these communities that people actually talked to me honestly, which is harder than it sounds, and took longer than any methodology section admits.`,
+          heading: "The problem: human-wildlife conflict",
+          text: `In the interior of Suriname, Indigenous Wayana and Trio communities live largely off subsistence agriculture, growing crops like cassava, banana, and sugar cane on small forest plots. These communities share their environment with mammalian crop raiders, species like agoutis, peccaries, howler monkeys, and tapirs, that regularly damage or destroy harvests. For families who depend directly on what they grow, crop losses to wildlife can have real consequences for food security and livelihoods. Understanding how these communities perceive and tolerate this conflict is essential for developing conservation strategies that actually work on the ground and respect local realities.`,
         },
         {
-          heading: "What I actually did",
-          text: `Understanding a community starts far beyond books and a laptop. With the Wayana in Apetina, I was warmly welcomed from early on: taken on hunts, shown medicinal plants, and introduced to the daily rhythms of life in the forest. In Sipa, with the Trio people, integration took a bit longer, but I eventually felt even more like part of the community. There, I saw how deep their connection to the forest runs, and how strong the sense of collectivity is: everything is shared, from harvests to labour. Villagers help each other on their farms and get "paid" at the end of the day with a collective cassava beer.
+          heading: "The research: Wildlife Tolerance Model & PLS-SEM",
+          text: `My research applied the Wildlife Tolerance Model (WTM) to investigate what factors drive tolerance, or intolerance, toward crop-raiding wildlife in these communities. The WTM goes beyond simply measuring material damage; it incorporates the social, cultural, and ecological values that shape how people relate to animals, including perceived risks, benefits, and underlying attitudes toward coexistence.
 
-Spending my free time harvesting cassava and playing football, opening myself up to their language, stories, and jokes, it worked. People began to share things I hadn't expected: deeply personal stories, sensitive cultural practices, complex political tensions within the community. Things they might never have said to an outsider without that shared sense of trust.`,
+To analyse the relationships between these factors, I used Partial Least Squares Structural Equation Modelling (PLS-SEM), a statistical method well suited for testing complex models with multiple interacting variables, especially in contexts with smaller sample sizes. This allowed me to model the direct and indirect pathways through which factors like experienced crop damage, cultural values, and perceived wildlife benefits influence tolerance levels. The fieldwork itself combined structured interviews, participatory observation, and extended immersion in the communities.`,
         },
         {
-          heading: "What I took away",
-          text: `Science isn't just about numbers, p-values, and data. The human story is essential to truly understanding what lives within a community. What I learned above all is how valuable genuine mutual trust is in sociological research. And that trust isn't built through interviews or surveys alone, but through sports, play, jokes, shared adventures, and a friendly cassava beer.
-
-This experience shapes how I approach every project I work on now: practically, people-centred, and grounded in real field conditions. I am deeply grateful for the trust those communities placed in me and the knowledge they shared.
+          heading: "Fieldwork and integration",
+          text: `Collecting meaningful data in these communities required genuine trust. With the Wayana in Apetina and the Trio in Sipa, I integrated into daily life, joining hunts, harvesting cassava, playing football, and learning about their deep connection to the forest. This openness allowed people to share perspectives they might not have offered to an outsider, which was critical for understanding the nuanced social and cultural dimensions that a survey alone could never capture.`,
+        },
+        {
+          heading: "Why it matters",
+          text: `Human-wildlife conflict is one of the most pressing issues in conservation, and it's especially complex in communities where livelihoods depend directly on the land. Research like this helps inform conservation policy that balances biodiversity protection with the realities of subsistence farming. By understanding what actually drives tolerance, rather than assuming it, we can support strategies that work with communities rather than imposing solutions from outside.
 
 *Research conducted in collaboration with Utrecht University (supervisor: Ronja Knippers) and Amazon Conservation Team. Publication forthcoming; I am a co-author.*`,
         },
@@ -367,7 +369,7 @@ This experience shapes how I approach every project I work on now: practically, 
 
     // ── FULL PAGE (shown when project is opened) ──
     page: {
-      title: "Bio-Inspired Design Challenge: Ecuadorian Amazon 🇪🇨",
+      title: "Bio-Inspired Design Challenge: Ecuadorian Amazon",
       heroPhoto: "assets/projects/biomimicry/students.jfif",
       lead: `I initiated and organised a bio-inspired design challenge at ESPOCH Macas, a university located right in the Amazon rainforest. After getting a professor at ESPOCH enthusiastic about the idea, we built the challenge together from scratch, introducing Environmental Engineering students to biomimicry as a practical tool for solving sustainability challenges in their own ecosystems. Many of the students came from Indigenous backgrounds, and their connection to nature gave the whole experience a depth I hadn't expected.`,
 
@@ -428,7 +430,7 @@ Beyond the educational component, the project created a real bridge between acad
     },
 
     page: {
-      title: "De-Bacte: Shark-Inspired Drinking Water Innovation 🦈",
+      title: "De-Bacte: Shark-Inspired Drinking Water Innovation",
       heroPhoto: "assets/projects/shark biomimicry/winners photo.jfif",
       lead: `Our team won the 2023 Bio-Inspired Design Challenge at Utrecht University, competing against all other master's students in a challenge to design a solution for any UN Sustainable Development Goal. We investigated the most prevalent issue with the Dutch drinking water system, biofouling, and found our answer by looking at the skin of sharks.`,
 
@@ -438,16 +440,16 @@ Beyond the educational component, the project created a real bridge between acad
           text: `Biofouling, the formation and build-up of bacteria inside water pipes, is one of the biggest challenges in drinking water infrastructure. It compromises water safety, increases energy consumption through added drag, and current solutions often rely on chlorine, which brings its own health and environmental concerns. We wanted to find a way to keep pipes clean without chemicals.`,
         },
         {
-          heading: "Our solution",
-          text: `We looked at how fast-swimming marine animals deal with the same problem. Sharks have evolved microstructures on their skin, tiny ridged patterns called dermal denticles, that prevent organisms from attaching and reduce hydrodynamic drag at the same time. Our design, De-Bacte, applies these microstructures to the interior surface of drinking water pipes, preventing biofilm formation while also reducing energy costs through lower drag. No chlorine, no chemicals, just a surface geometry that nature already perfected.
+          heading: "The biomimicry design process",
+          text: `This project followed a structured biomimicry design methodology. We started by defining the core engineering challenge: how do you prevent organic matter from accumulating on a submerged surface without chemical intervention? From there, we biologised the question: which organisms face the same challenge in nature, and how have they solved it over millions of years of evolution?
 
-The approach was a genuine application of biomimicry: not just copying a shape, but understanding the biological principle behind it and translating it into an engineering context where it solves a real problem.`,
+That led us to sharks. Their skin is covered in microscopic structures called dermal denticles, tiny tooth-like ridges that create a surface geometry hostile to microbial attachment. The same structures simultaneously reduce hydrodynamic drag by channelling water flow along the skin. We abstracted this biological principle, the relationship between surface microtopography, anti-adhesion, and drag reduction, and translated it into an engineering application: lining the interior of drinking water pipes with a synthetic surface that replicates the geometry of shark dermal denticles.
+
+The result, De-Bacte, prevents biofilm formation without chemicals while also lowering energy costs through reduced friction. It's not a metaphor or a loose inspiration; it's a direct functional translation of a biological strategy into an industrial context, which is what real biomimicry design is about.`,
         },
         {
           heading: "The outcome",
-          text: `De-Bacte was selected as the most promising bio-inspired solution by a jury of biomimicry experts, state patent specialists, and a university startup incubator expert. They recognised the scientific backing and potential impact of the innovation, and awarded us substantial prize money to develop a prototype and conduct experiments.
-
-The challenge was a masterclass in biomimicry, teaching me about creativity within a collaborative environment. It sharpened my skills in design thinking, pitching, stakeholder analysis, and expert interviews. The competition was genuinely close, and every team presented creative and promising designs. That made winning it even more meaningful.
+          text: `De-Bacte was selected as the most promising bio-inspired solution by a jury of biomimicry experts, state patent specialists, and a university startup incubator expert. They recognised the scientific depth of the design and the potential for real-world impact, and awarded us substantial prize money to develop a prototype and conduct experiments.
 
 We were offered support from UtrechtInc, the university's startup incubator, and guidance from the patent office of the RVO to take De-Bacte further toward becoming a real product.`,
         },
