@@ -176,6 +176,15 @@
       margin-bottom: 3rem;
     }
 
+    .hero-affiliation a {
+      color: var(--green);
+      text-decoration: none;
+    }
+
+    .hero-affiliation a:hover {
+      text-decoration: underline;
+    }
+
     .hero-affiliation strong {
       font-weight: 600;
     }
@@ -350,6 +359,13 @@
       background: var(--green-pale);
       border-left: 3px solid var(--green);
       border-radius: 4px;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.2s;
+    }
+
+    .about-affiliation:hover {
+      background: #dce5dd;
     }
 
     .about-affiliation-logo {

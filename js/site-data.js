@@ -43,6 +43,7 @@ const SITE = {
 
     affiliation: {
       name: "RockinSoils",
+      url: "https://rockinsoils.com/",
       logo: "assets/company-logos/cropped-rockinsoils-logo-web-green2.png",
       label: "Working under the guidance of RockinSoils",
       detail: `Senior agro-consultant **Ruben Borge** provides technical knowledge and advice. I bring flexibility and fresh field energy, with direct access to decades of regenerative agriculture expertise. In practice, organisations often find that I offer the best of both worlds.`,
